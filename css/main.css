@@ -1,0 +1,338 @@
+body{
+	max-width: 1000px;
+	margin: auto;
+}
+
+.capitals{
+	text-transform: uppercase;
+}
+.sale a, .social-networking-links li{
+  transition: background-color 0.3s;
+  moz-transition: background-color 0.3s;
+  webkit-transition: background-color 0.3s;
+}
+.top{
+	font-size: 0.8rem;
+	background-color: rgba(78,107,137,.8);
+	color: white;
+	font-family: 'Raleway', sans-serif;
+}
+
+.top .small{
+	text-align: center;
+}
+.top-nav-bar li{
+	font-size: 0.7rem;
+	display: inline-block;
+	padding: 0 0.5rem;
+	border-right: white 1px solid;
+}
+.top-nav-bar{
+	float: right;
+}
+.top-nav-bar a{
+	color: white;
+}
+.top-nav-bar li:last-child{
+	border-right:none;
+}
+a:hover{
+	border-bottom: 1px solid white;
+}
+
+.social-networking-links img{
+  width: 1rem;
+  height: 1rem;
+  margin: 0.5rem;
+}
+
+.social-networking-links li{
+  display: inline-block;
+  margin-right: 0.5rem;
+  float: none;
+  border-radius: 20px;
+  background-color: grey;
+  text-align: center;
+}
+.social-networking-links a:hover{
+  border-bottom: none;
+}
+.social-networking-links li:hover{
+  background-color: black;
+}
+.sale{
+	display: inline-block;
+	text-align: center;
+	margin: 0% 0 0 15%;
+	position: absolute;
+	top: 12%;
+}
+
+.sale h3{
+	margin: 0 auto;
+	font-family: 'Dancing Script', cursive;
+	font-size: 1.8rem;
+	margin: 1rem;
+	position: relative;
+	color: rgba(67,67,67,1);
+
+}
+.sale h3:after,
+.sale h4:after,.sale h1{
+	font-size: 3rem;
+	text-transform: uppercase;
+	margin-top: 1rem;
+	color: rgba(67,67,67,1);
+}
+.sale h3:after,
+.sale h4:after,
+.grid-third-equal a:after{
+	content:"";
+	position: absolute;
+	top: 85%;
+	display: inline-block;
+	width: 20%;
+	height: 3px;
+	background-color: rgba(150,123,53,0.3);
+	left: 40%;
+}
+
+.sale h4{
+	font-size: 1.8rem;
+	font-weight: 500;
+	margin: 1rem 0 2rem 0;
+	position: relative;
+	color: rgba(67,67,67,1);
+
+}
+.sale a{
+	color: rgba(78,107,137,1);
+	border: 2px solid rgba(78,107,137,1);
+	padding: 0.5rem 1.2rem;
+	width: 40%;
+	text-transform: uppercase;
+	font-size: 1rem;
+	font-weight: 100;
+	margin: auto;
+	transition: color 0.3s;
+	moz-transition: color 0.3s;
+	webkit-transition: color 0.3s;
+}
+.sale a:hover{
+	background-color: rgba(78,107,137,1);
+	color: white;
+}
+
+.slide-2 h3, .slide-2 h2{
+  color: white;
+}
+.slide-2 h2{
+  text-transform: uppercase;
+}
+.slide-2 a{
+  border: 1px solid white;
+  color: white;
+}
+.slide-2 a:hover{
+  color: black;
+  background-color: white;
+}
+.inline{
+	margin-right: 0;
+	display: inline-block;
+}
+.inline a{
+	color: rgba(109,109,109,1);
+	padding: 0 0.5rem;
+	text-transform: uppercase;
+	font-size: 0.8rem;
+}
+
+.right-border a:first-child{
+	border-right: 1px solid rgba(109,109,109,1);
+}
+.padding1{
+	padding: 1rem 0rem;
+}
+.centered{
+	text-align: center;
+}
+
+.smaller-width{
+	margin: auto;
+	width: 95%;
+	padding-top: 1rem;
+}
+.image{
+	position: relative;
+}
+.image h8{
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	vertical-align: center;
+	display: inline-block;
+}
+.image a{
+	top: 30%;
+	position: relative;
+	color: white;
+	text-transform: uppercase;
+}
+
+.featured{
+	margin: 2rem;
+	color: blue;
+	display: inline-block;
+	width: 100%;
+}
+.image-wrapper {
+  width: 100%;
+  height: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  border-radius: 4px; }
+
+.image-overlay-content {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0; }
+
+.overlay-fade-in p {
+  letter-spacing: 0.15em;
+  color: #f4f4f4;
+  font-size: 28px;
+  opacity: 0;
+  transition: all 0.2s linear; }
+.overlay-fade-in img {
+  transition: all 0.2s linear; }
+.overlay-fade-in .image-overlay-content {
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  transition: all 0.4s ease-in-out; }
+.overlay-fade-in h2 {
+  color: #f2f2f2;
+  font-size: 1.8rem;
+  margin-top: 40%;
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+  background: rgba(0, 0, 0, 0.7); }
+.overlay-fade-in .button {
+  display: inline-block;
+  text-decoration: none;
+  padding: 7px 14px;
+  background: #FFF;
+  color: #222;
+  text-transform: uppercase;
+  box-shadow: 0 0 1px #000;
+  position: relative;
+  border: 1px solid #999;
+  opacity: 0;
+  transition: all 0.2s ease-in-out; }
+  .overlay-fade-in .button:hover {
+    box-shadow: 0 0 5px #000; }
+.overlay-fade-in:hover img {
+  transform: scale(1.2); }
+.overlay-fade-in:hover .image-overlay-content {
+  opacity: 1; }
+.overlay-fade-in:hover h2, .overlay-fade-in p, .overlay-fade-in .button {
+  opacity: 1; }
+.overlay-fade-in:hover p {
+  transition-delay: 0.1s; }
+.overlay-fade-in:hover .button {
+  transition-delay: 0.2s; }
+
+.overlay-slide-in-left img {
+  transition: all 0.3s ease-in-out; }
+.overlay-slide-in-left .image-overlay-content {
+  background-image: url(http://www.awwwards.com/awards/images/2015/04/pattern.jpg);
+  background-color: rgba(0, 0, 0, 0.3);
+  transform: translateX(-110%);
+  opacity: 1;
+  transition: all 0.4s ease-in-out;
+  box-shadow: 0 0 7px #ccc; }
+.overlay-slide-in-left h2 {
+  font-size: 1.8rem;
+  background: rgba(255, 255, 255, 0.7);
+  margin-top: 40%;
+  color: #000;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1); }
+.overlay-slide-in-left p {
+  opacity: 0;
+  color: #333;
+  transition: all 0.2s linear; }
+.overlay-slide-in-left .button {
+  display: inline-block;
+  text-decoration: none;
+  padding: 7px 14px;
+  background: #000;
+  color: #fff;
+  text-transform: uppercase;
+  box-shadow: 0 0 1px #000;
+  position: relative;
+  border-radius: 7px; }
+  .overlay-slide-in-left .button:hover {
+    background-color: #444; }
+.overlay-slide-in-left:hover .image-overlay-content {
+  transform: translateX(0px); }
+.overlay-slide-in-left:hover img {
+  transform: translateX(80%);
+  transition-delay: 0.1s; }
+.overlay-slide-in-left:hover p {
+  opacity: 1;
+  transition-delay: 0.4s; }
+
+.overlay-fade-in-new-background .button {
+  display: inline-block;
+  text-decoration: none;
+  padding: 7px 14px;
+  background: #000;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 5px;
+  box-shadow: 0 0 1px #000;
+  position: relative;
+  opacity: 0;
+  transition: all 0.2s ease-in-out; }
+  .overlay-fade-in-new-background .button:hover {
+    box-shadow: 0 0 5px #fff;
+    background-color: #222; }
+.overlay-fade-in-new-background p {
+  font-size: 28px; }
+.overlay-fade-in-new-background .image-overlay-content {
+  opacity: 0;
+  background-image: url(http://subtlepatterns.com/patterns/gplaypattern.png);
+  background-color: rgba(255, 255, 255, 0.5);
+  transition: all 0.4s ease-in-out; }
+.overlay-fade-in-new-background h2 {
+  color: #000;
+  font-size: 1.6rem;
+  margin-top: 30%;
+  opacity: 0;
+  transition: all 0.2s ease-in-out; }
+.overlay-fade-in-new-background p {
+  opacity: 0;
+  transition: all 0.2s linear; }
+.overlay-fade-in-new-background img {
+  transition: all 0.2s ease-in-out; }
+.overlay-fade-in-new-background:hover img {
+  filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/></filter></svg>#grayscale");
+  filter: gray;
+  -webkit-filter: grayscale(100%);
+  transform: scale(1.5); }
+.overlay-fade-in-new-background:hover .image-overlay-content {
+  opacity: 1; }
+.overlay-fade-in-new-background:hover h2, .overlay-fade-in-new-background p, .overlay-fade-in-new-background .button {
+  opacity: 1; }
+.overlay-fade-in-new-background:hover p {
+  transition-delay: 0.1s; }
+.overlay-fade-in-new-background:hover .button {
+  transition-delay: 0.2s; }
+
